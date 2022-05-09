@@ -43,3 +43,7 @@ td.dead {
 td.live {
   background-color: green;
 }
+
+#gridContainer > table:nth-child(2){
+  display: none;
+}
