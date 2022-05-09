@@ -109,7 +109,7 @@ export function setupControlButtons() {
     randomButton.onclick = randomButtonHandler;
 }
 
-
+// Generate random living cells
 export function randomButtonHandler() {
     if (playing) return;
     clearButtonHandler();

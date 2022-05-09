@@ -9,6 +9,11 @@ it("Tableau existe", function () {
     expect(tableau).toBeGreaterThan(1);
 });
 
+it("Définition d'une cellule", function(){
+    let cellule = Math.round(Math.random())
+    expect(cellule).toBeBoolean();
+})
+
 it("Au moins une cellule est vivante", function () {
     let cellsList = document.getElementsByClassName("alive");
     expect(cellsList).toBeGreaterThan(1);
