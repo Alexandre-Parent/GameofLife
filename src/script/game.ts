@@ -127,8 +127,6 @@ export function randomButtonHandler() {
 
 // clear the grid
 export function clearButtonHandler() {
-    console.log("Clear the game: stop playing, clear the grid");
-
     playing = false;
     let startButton = document.getElementById('start');
     startButton.innerHTML = "Start";
@@ -149,12 +147,10 @@ export function clearButtonHandler() {
 // start/pause/continue the game
 export function startButtonHandler() {
     if (playing) {
-        console.log("Pause the game");
         playing = false;
         this.innerHTML = "Continue";
         clearTimeout(timer);
     } else {
-        console.log("Continue the game");
         playing = true;
         this.innerHTML = "Pause";
         play();
