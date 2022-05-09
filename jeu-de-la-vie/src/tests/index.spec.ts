@@ -10,8 +10,8 @@ it("Tableau existe", function () {
 });
 
 it("Au moins une cellule est vivante", function () {
-    let alive = document.getElementsByClassName("alive")
-    expect(alive).toBeGreaterThan(1);
+    let cellsList = document.getElementsByClassName("live");
+    expect(cellsList).toBeGreaterThan(1);
 });
 
 
