@@ -40,7 +40,7 @@ td.dead {
   background-color: transparent;
 }
 
-td.live {
+td.alive {
   background-color: darkred;
 }
 
