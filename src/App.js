@@ -1,10 +1,12 @@
 import * as gameOfLife from './script/game';
 import {useEffect} from "react";
 import {initialize} from "./script/game";
+import {randomButtonHandler} from "./script/game"
 
 const App = () => {
     useEffect(()=> {
         initialize();
+        randomButtonHandler();
     },[])
     return (
     <div className="App">
