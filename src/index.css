@@ -41,7 +41,7 @@ td.dead {
 }
 
 td.live {
-  background-color: green;
+  background-color: darkred;
 }
 
 #gridContainer > table:nth-child(2){
